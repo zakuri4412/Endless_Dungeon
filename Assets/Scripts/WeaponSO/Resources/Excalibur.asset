@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f2dc2625d9dc15542a195b92b1e9f4a8, type: 3}
-  m_Name: B.Sword
+  m_Name: Excalibur
   m_EditorClassIdentifier: 
-  animatorOverride: {fileID: 22100000, guid: 234836add7d78b84d82d022e69ab233f, type: 2}
-  weaponPrefab: {fileID: 88725160178991151, guid: 9a35a8e3683af974aae4f9c564ae8be7, type: 3}
-  weaponDamage: 40
-  attackSpeedBoost: 45
-  weaponRange: 1.5
-  levelNeed: 35
+  animatorOverride: {fileID: 22100000, guid: df88b1b791edd144abea52658015ac96, type: 2}
+  weaponPrefab: {fileID: 999085770012131194, guid: 93268d4759821ea4ea2b33ddb1970b84, type: 3}
+  weaponDamage: 100
+  attackSpeedBoost: 70
+  weaponRange: 2
+  levelNeed: 50

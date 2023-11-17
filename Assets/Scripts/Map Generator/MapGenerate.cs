@@ -58,11 +58,6 @@ public class MapGenerate : MonoBehaviour
         StartCoroutine(LoadScene());
     }
 
-    public void BackHome()
-    {
-        gameManager.LoadGame();
-        StartCoroutine(Transitoin("Home"));
-    }
     IEnumerator LoadScene()
     {
         yield return GetComponent<SavingSystem>().LoadLastScene(defaultSaveFile, LoadingScreen, Loadingbar);
@@ -90,10 +85,12 @@ public class MapGenerate : MonoBehaviour
             playerCurrentFloor.SetCurrentFloor(floor);
             StartCoroutine(Transitoin(randomSceneName));
         }
-        else
-        {
-            Debug.LogError("No scenes added to the sceneNames array!");
-        }
+    }
+
+    public void BackHome()
+    {
+        gameManager.LoadGame();
+        StartCoroutine(Transitoin("Home"));
     }
 
     public IEnumerator Transitoin(string randomSceneName)

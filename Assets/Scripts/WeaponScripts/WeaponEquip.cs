@@ -23,7 +23,10 @@ public class WeaponEquip : MonoBehaviour
             
         }
     }
-
+    public float GetLevelWeapon()
+    {
+        return weapon.GetLevelNeed();
+    }
     private IEnumerator HideForSeconds(float seconds)
     {
         ShowPickup(false);

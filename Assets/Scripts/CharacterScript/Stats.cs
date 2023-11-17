@@ -29,7 +29,7 @@ public class Stats : MonoBehaviour, ISaveable
     {
         if (gameObject.tag == "Player")
         {
-            print(GetLevel());
+            GetLevel();
         }
     }
 

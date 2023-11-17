@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f2dc2625d9dc15542a195b92b1e9f4a8, type: 3}
-  m_Name: B.Sword
+  m_Name: Dagger
   m_EditorClassIdentifier: 
-  animatorOverride: {fileID: 22100000, guid: 234836add7d78b84d82d022e69ab233f, type: 2}
-  weaponPrefab: {fileID: 88725160178991151, guid: 9a35a8e3683af974aae4f9c564ae8be7, type: 3}
-  weaponDamage: 40
-  attackSpeedBoost: 45
-  weaponRange: 1.5
-  levelNeed: 35
+  animatorOverride: {fileID: 22100000, guid: bee0a6007685d1648ae7e35a1d663c99, type: 2}
+  weaponPrefab: {fileID: 2733040150941228919, guid: f5e4d658f6eaca94e952eb44fb90b33f, type: 3}
+  weaponDamage: 15
+  attackSpeedBoost: 15
+  weaponRange: 1
+  levelNeed: 5

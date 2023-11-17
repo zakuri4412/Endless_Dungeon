@@ -10,14 +10,6 @@ public class SavingWrapper : MonoBehaviour
     {
         gameManager = FindObjectOfType<GameManager>();
     }
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            Save();
-        }
-    }
-
 
     public void Save()
     {

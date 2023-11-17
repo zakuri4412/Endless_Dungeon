@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animatorOverride: {fileID: 0}
   weaponPrefab: {fileID: 0}
-  weaponDamage: 1
+  weaponDamage: 10
   attackSpeedBoost: 0
   weaponRange: 0
+  levelNeed: 0
