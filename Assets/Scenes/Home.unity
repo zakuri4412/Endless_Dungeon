@@ -4350,6 +4350,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1696201292, guid: f02e4df8e3a18a34caa5e19deefd010b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 27.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1696201292, guid: f02e4df8e3a18a34caa5e19deefd010b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 39.23
+      objectReference: {fileID: 0}
     - target: {fileID: 3218185805578404068, guid: f02e4df8e3a18a34caa5e19deefd010b, type: 3}
       propertyPath: m_Name
       value: Map Generate

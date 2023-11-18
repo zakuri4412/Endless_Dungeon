@@ -79,7 +79,7 @@ public class MapGenerate : MonoBehaviour
         CharacterController playerCurrentFloor = player.GetComponent<CharacterController>();
         if (sceneNames.Length > 0)
         {
-            int randomIndex = Random.Range(1, sceneNames.Length);
+            int randomIndex = Random.Range(0, sceneNames.Length);
             string randomSceneName = sceneNames[randomIndex];
             int floor = playerCurrentFloor.GetCurrentFloor() + 1;
             playerCurrentFloor.SetCurrentFloor(floor);
